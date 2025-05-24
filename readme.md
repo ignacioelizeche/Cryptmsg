@@ -3,7 +3,6 @@
 
 ### 📄 `README.md`
 
-````markdown
 # API de Cifrado y Descifrado AES-GCM con FastAPI
 
 Esta API permite cifrar y descifrar textos utilizando el algoritmo AES en modo GCM (Galois/Counter Mode) con claves de hasta 256 bits. Está desarrollada con FastAPI, ofreciendo alto rendimiento, documentación automática y validación de datos.
@@ -97,7 +96,4 @@ Este proyecto está bajo la Licencia MIT.
 * Duy, H. (n.d.). *FastAPI documentation*. [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
 * The Python Cryptographic Authority. (n.d.). *Cryptography documentation*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
 
-```
-
----
 ```
