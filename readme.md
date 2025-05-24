@@ -1,4 +1,3 @@
-﻿Claro, aquí tienes el `README.md` bien estructurado, con formato limpio y profesional:
 
 ---
 
@@ -101,6 +100,4 @@ Este proyecto está bajo la Licencia MIT.
 ```
 
 ---
-
-¿Deseas también un archivo de ejemplo `.http` o una colección de Postman para probar los endpoints fácilmente?
 ```
