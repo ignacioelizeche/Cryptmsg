@@ -60,11 +60,9 @@ venv\Scripts\activate      # En Windows
 ### 3. Clonar el repositorio o copiar los archivos
 
 ```bash
-git clone https://github.com/tu-usuario/encrypt-api.git
+git clone https://github.com/ignacioelizeche/Cryptmsg.git
 cd encrypt-api
 ```
-
-> Si no usas Git, simplemente crea una carpeta y copia los archivos `main.py`, `crypto_utils.py`, `requirements.txt` y este `README.md`.
 
 ---
 
