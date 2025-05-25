@@ -68,8 +68,6 @@ cd encrypt-api
 
 ### 4. Instalar las dependencias
 
-### 5. Instalar las dependencias
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -77,8 +75,6 @@ pip install -r requirements.txt
 ---
 
 ### 5. Ejecutar el servidor
-
-### 6. Ejecutar el servidor
 
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
