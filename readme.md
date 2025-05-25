@@ -152,10 +152,3 @@ Descifra un texto previamente cifrado.
 ## 🧾 Licencia
 
 Este proyecto está bajo licencia MIT.
-
----
-
-## 📚 Referencias
-
-* Duy, H. (n.d.). *FastAPI documentation*. [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
-* The Python Cryptographic Authority. (n.d.). *Cryptography documentation*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
