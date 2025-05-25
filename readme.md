@@ -68,6 +68,8 @@ cd encrypt-api
 
 ### 4. Instalar las dependencias
 
+### 5. Instalar las dependencias
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -75,6 +77,8 @@ pip install -r requirements.txt
 ---
 
 ### 5. Ejecutar el servidor
+
+### 6. Ejecutar el servidor
 
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
@@ -92,6 +96,17 @@ encrypt_api/
 └── README.md           # Documentación del proyecto
 ```
 
+## 📦 Estructura del Proyecto
+
+```
+encrypt_api/
+├── main.py             # Archivo principal de FastAPI
+├── crypto_utils.py     # Funciones de cifrado y descifrado
+├── requirements.txt    # Lista de dependencias
+├── .env                # Clave secreta para cifrado
+└── README.md           # Documentación del proyecto
+```
+
 ---
 
 ## 🛠️ Endpoints
@@ -104,7 +119,6 @@ Cifra un texto usando una clave.
 
 ```json
 {
-  "key": "mi_clave_secreta",
   "text": "Hola mundo"
 }
 ```
@@ -127,7 +141,6 @@ Descifra un texto previamente cifrado.
 
 ```json
 {
-  "key": "mi_clave_secreta",
   "text": "texto_cifrado_base64"
 }
 ```
@@ -154,3 +167,9 @@ Descifra un texto previamente cifrado.
 
 Este proyecto está bajo licencia MIT.
 
+---
+
+## 📚 Referencias
+
+* Duy, H. (n.d.). *FastAPI documentation*. [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
+* The Python Cryptographic Authority. (n.d.). *Cryptography documentation*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)

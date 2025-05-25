@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Cryptmsg</Name>
     <RootNamespace>Cryptmsg</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,6 +28,7 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="readme.md" />
+    <Content Include=".env" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
