@@ -93,16 +93,6 @@ encrypt_api/
 ├── main.py             # Archivo principal de FastAPI
 ├── crypto_utils.py     # Funciones de cifrado y descifrado
 ├── requirements.txt    # Lista de dependencias
-└── README.md           # Documentación del proyecto
-```
-
-## 📦 Estructura del Proyecto
-
-```
-encrypt_api/
-├── main.py             # Archivo principal de FastAPI
-├── crypto_utils.py     # Funciones de cifrado y descifrado
-├── requirements.txt    # Lista de dependencias
 ├── .env                # Clave secreta para cifrado
 └── README.md           # Documentación del proyecto
 ```
